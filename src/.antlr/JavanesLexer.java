@@ -1,4 +1,4 @@
-// Generated from c:/Users/ferna/Desktop/Trabalho Compiladores/Trabalho-Compiladores/src/Javanes.g4 by ANTLR 4.13.1
+// Generated from c:/Users/ferna/Desktop/Trabalho Compiladores/gcc130-trabalho-versaofinal/src/Javanes.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

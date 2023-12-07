@@ -11,8 +11,8 @@ import org.antlr.v4.runtime.tree.ParseTreeWalker;
 public class AnalisadorSem {
     
     public static void main(String[] args) {
-        String filename = "C:\\Users\\ferna\\Desktop\\Trabalho Compiladores\\Trabalho-Compiladores\\ExemploCodigo.txt";
-        
+        String filename = "C:\\Users\\ferna\\Desktop\\Trabalho Compiladores\\gcc130-trabalho-versaofinal\\ExemploCodigoIII.txt";
+
         try {
             // Lexico
             CharStream input = CharStreams.fromFileName(filename);
@@ -33,7 +33,7 @@ public class AnalisadorSem {
                     System.out.println("Classe: " + lexer.getVocabulary().getDisplayName(token.getType()));
             } 
             System.out.println("Analise de tokens encerrado. ---------");
-            */
+            */ 
 
             // Sintatico
             CommonTokenStream tokens = new CommonTokenStream(lexer);
