@@ -1,0 +1,4 @@
+func a() inteiro {
+    seja b = 3;
+    c = 2;
+}

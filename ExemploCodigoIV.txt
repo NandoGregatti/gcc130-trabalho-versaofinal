@@ -1,0 +1,10 @@
+func fib(n: inteiro) inteiro {
+    se (n <= 1) retorna n;
+    retorna fib(n - 1) + fib (n - 2); 
+}
+
+func b() nada {
+    seja n = 2;
+    n = fib(n);
+    retorna;
+}
