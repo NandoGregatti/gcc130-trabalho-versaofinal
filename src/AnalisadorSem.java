@@ -23,10 +23,22 @@ public class AnalisadorSem {
                 // Cria um objeto JavanesLexer a partir de input. 
                 // Classe gerada automaticamente. Representa o analisador léxico. 
 
+            // Impressão de tokens e classes para análise
+            // A parte de sintaxe não funciona adequadamente caso esteja em funcionamento. 
+            /* Token token;
+            while (!lexer._hitEOF) {
+                    token = lexer.nextToken();
+                    System.out.println("Token: " + token.toString());
+                    System.out.println("Lexema: " + token.getText());
+                    System.out.println("Classe: " + lexer.getVocabulary().getDisplayName(token.getType()));
+            } 
+            System.out.println("Analise de tokens encerrado. ---------");
+            */
+
+            // Sintatico
             CommonTokenStream tokens = new CommonTokenStream(lexer);
                 // Cria uma stream de tokens. Representa uma sequencia de tokens. 
 
-            // Sintatico
             JavanesParser parser = new JavanesParser(tokens);
                 // Cria um objeto JavanesParser (codigo gerado pelo ANTLR)
                 // JavanesParser é uma classe gerada automaticamente pelo ANTLR. Representa o analisador sintatico. 
